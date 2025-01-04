@@ -1,0 +1,68 @@
+.title-primary
+{
+    /* font-family: 'Playwrite AU SA', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #800000;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    /* font-weight: 200;  */
+}
+
+.title-secundary
+{
+    font-family: "Dancing Script", serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #800000;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-weight: 900; /* 400 es la normal */
+}
+
+.title-subtitles-principal
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #B22222 ;
+    font-weight: 500; /* 400 es la normal */
+}
+
+.title-subtitles
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #951f1feb ;
+    font-weight: 800; /* 400 es la normal */
+}
+
+
+
+@media (max-width: 600px) {
+    /* pantallas pequeñas móviles */
+    .title-primary {
+        font-size: 2rem; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .title-secundary {
+        font-size: 2rem; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .title-subtitles-principal
+    {
+        font-size: 1rem;
+        font-weight: 200; /* 400 es la normal */
+    }
+
+    .title-subtitles
+    {
+        font-size: 20px;
+        font-weight: 200; /* 400 es la normal */
+    }
+}
+

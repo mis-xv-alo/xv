@@ -8,8 +8,18 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+hr {
+    border: 1px solid #800000; 
+}
+
+.fixed-element {
+    position: absolute; 
+    z-index: 9999;
+}
+
 
 .div-primary{
     margin: 50px;
@@ -113,14 +123,29 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     flex-wrap: wrap;
 }
+
+.grid img {
+    height: 500px;
+    width: 500px;
+}
+@media (max-width: 600px) {
+    .grid img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
 
 .itinerary {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
+
 }
 
 .itinerary-child {
@@ -133,20 +158,23 @@ html, body {
 }
 
 .itinerary-child img {
-    height: 150px;
+    height: 100px;
     width: auto;
 }
 
-.itinerary-child span img {
-    height: 35px;
-    width: 35px;
-    margin-right: 10px;
+@media (max-width: 600px) {
+    .itinerary-child img {
+        height: 90px;
+    }
 }
 
 .itinerary-child span:first-child {
     justify-self: end;
     margin-right: 35px;
+    /* min-width: 135px;
+    max-width: 135px; */
 }
+
 
 .itinerary-child span:last-child {
     justify-self: start;
@@ -159,6 +187,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    width: 100%;
 }
 
 .location {
@@ -180,4 +209,9 @@ html, body {
 .location .map {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.location .iframe {
+    width: 600;
+    height: 500;
 }

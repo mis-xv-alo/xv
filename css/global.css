@@ -37,6 +37,26 @@
     font-weight: 800; /* 400 es la normal */
 }
 
+.text
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.itinerary-child span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .itinerary-child span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+}
 
 
 @media (max-width: 600px) {

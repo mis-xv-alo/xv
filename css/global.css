@@ -10,6 +10,14 @@
     /* font-weight: 200;  */
 }
 
+.music-text{
+    font-family: "Dancing Script", serif;
+    font-size: 30px;
+    text-align: center;
+    color: #800000;
+    font-weight: 500;
+}
+
 .title-secundary
 {
     font-family: "Dancing Script", serif;
@@ -50,8 +58,27 @@
     text-align: center;
 }
 
+.location p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     .itinerary-child span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .music-text{
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .location p{
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         text-align: center;

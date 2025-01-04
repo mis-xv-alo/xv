@@ -20,6 +20,13 @@ hr {
     z-index: 9999;
 }
 
+.music-div{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
 
 .div-primary{
     margin: 50px;
@@ -200,10 +207,11 @@ hr {
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 45px;
-    background-color: red;
+    background-color: rgba(117, 35, 35, 0.521);
     cursor: pointer;
     text-decoration: none;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .location .map {

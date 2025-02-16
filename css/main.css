@@ -11,6 +11,11 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+body {
+    background: radial-gradient(circle, #f2e2e2, transparent);
+}
+
 hr {
     border: 1px solid #800000; 
 }
@@ -230,3 +235,19 @@ hr {
     border: 2px solid white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 600px) {
+    .flower {
+        width: 140px !important;
+    }
+}
+.flower {
+    position: absolute;
+    width: 500px;
+    height: auto;
+}
+
+.flower.top-left { top: 0; left: 0; }
+.flower.top-right { top: 0; right: 0; }
+.flower.bottom-left { bottom: 0; left: 0; }
+.flower.bottom-right { bottom: 0; right: 0; }

@@ -1,6 +1,6 @@
 AOS.init();
 
-const partyDate = new Date("2025-04-22T23:59:59");
+const partyDate = new Date("2025-04-26T13:00:00");
 
 window.addEventListener("load", function() {
     updateDateTimer();
